@@ -1,0 +1,162 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+html {
+    padding: 0;
+    margin: 0;
+    /*background-color: #f0f0f0;*/
+    background-color: #f9f9f9;
+    font-family: "Source Serif Pro", "DejaVu Serif", monospace;
+    font-size: 16px;
+}
+
+main {
+	min-height: 100vw;
+	max-width: 88ch;
+	margin: 0 auto;
+	padding: 0 1.5ch 0 0.5ch;
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+}
+
+a, a:visited {
+	color: #D71728;
+}
+
+#left-nav {
+    /*display: flex;
+    flex-direction: column;*/
+    width: 10ch;
+}
+
+header {
+    font-size: 16pt;
+    overflow: auto;
+    padding: 0 0 0 0;
+}
+
+header, article {
+    margin-left: 14.5ch;
+}
+
+header {
+    margin-left: 10.5ch;
+}
+
+@media only screen and (max-width: 112ch) {
+    header, article {
+	margin-left: 1ch;
+    }
+
+    header {
+	font-size: 1rem;
+    }
+}
+
+h1 {
+    margin: 0;
+}
+
+article {
+    flex: 1 1 auto;
+}
+
+#TOC {
+    float: left;
+    max-width: 20ch;
+    font-size: 0.9rem;
+
+    border: 1px solid #ccc;
+    /*background-color: #f9f9f9;*/
+    background-color: #f0f0f0;
+    line-height: 1.25;
+    position: relative;
+    padding: 10px 10px 2px 14px;
+    margin: 0 2rem 1.5rem 0;
+}
+
+#TOC ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#TOC ul ul, #TOC ul ul li {
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+#TOC a {
+    color: #3c3c3c;
+    text-decoration: none;
+}
+
+#TOC li {
+    font-weight: bold;
+    margin: 5px 0 10px 0;
+    padding-left: 1.125em;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+#markdown-body {
+    overflow-wrap: break-word;
+}
+
+ul {
+    margin: 0;
+    padding-left: 2ch;
+}
+ul, h3 {
+    list-style-type: circle;
+    /*float: left;*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2:first-child {
+    line-height: 1;
+    text-align: right;
+    font-weight: 600;
+
+    margin: 1.75em 0 .375em -.75rem;
+    font-size: 2em;
+    overflow: hidden;
+    padding: 0 0 6px 0.75rem;
+    box-shadow: 0 -5px 0 0 #f9f9f9 inset,0 -6px 0 0 #888 inset;
+}
+
+article #markdown-body section > :first-child a {
+    background: 0 0;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 44ch) {
+    code {
+	font-size: 12px;
+    }
+
+    h2:first-child {
+	font-size: 1.5em;
+    }
+}
+
+#right-nav {
+    width: 10ch;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    display: flex;
+
+    padding: 0.125em 0.25em;
+    border: 3px solid transparent;
+    opacity: 0.3;
+    /*display: flex;
+    width: 10vw;
+    flex-direction: column;
+    margin-right: 50px;*/
+}
