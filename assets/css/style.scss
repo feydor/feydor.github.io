@@ -3,11 +3,6 @@
 
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
-html {
-    // background-color: #f9f9f9;
-    font-family: "Source Serif Pro", "DejaVu Serif", monospace;
-    font-size: 16px;
-}
 
 main {
 	min-height: 100vw;
