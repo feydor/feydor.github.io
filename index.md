@@ -7,7 +7,7 @@ I maintain this site in order to showcase my work and share things that are mean
 ### Contact Me
 
 My email address: [vreyes85739@outlook.com](mailto:victorreyes85739@outlook.com).  
-My public git repository: https://github.com/feydor
+My public git repository: [https://github.com/feydor](https://github.com/feydor).
 
 ### Recent Projects
 
@@ -38,3 +38,6 @@ A web application that provides collision-free <abbr title="Uniform Resource Loc
 A live version is available [here](https://p-url.herokuapp.com/).  
 The source code is publicly available [here](https://github.com/feydor/purl-shortener).                
 
+## Languages and Technologies
+I'm most familiar working in C and JavaScript. I'm also comfortable with C++, SQL, and the <abbr title="MongoDB, ExpressJS, ReactJS, NodeJS">MERN</abbr> stack.  
+Nearly all of my projects are worked on in the Linux shell using: Git version control, VSCode or neovim, and the Meson build system.
