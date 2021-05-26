@@ -16,37 +16,6 @@ a:hover, a:focus {
     font-weight: normal;
 } 
 
-section {
-   width: 680px;
-}
-
-@media only screen and (max-width: 960px) {
-    section {
-        width: 800px;
-    }
-    header {
-        width: 270px;
-    }
-}
-
-@media only screen and (max-width: 671px) {
-    section {
-        width: 590px;
-    }
-}
-
-@media only screen and (max-width: 573px) {
-    section {
-        width: 490px;
-    }
-}
-
-@media only screen and (max-width: 332px) {
-    section {
-        width: 390px;
-    }
-}
-
 header, footer {
     width: 170px;
 }
