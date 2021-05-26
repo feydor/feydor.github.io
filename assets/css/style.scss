@@ -4,32 +4,25 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 
-main {
-	min-height: 100vw;
-	max-width: 88ch;
-	margin: 0 auto;
-	padding: 0 1.5ch 0 0.5ch;
-	display: flex;
-	flex-direction: column;
-	/*justify-content: center;*/
+body {
+    color: #363636;
 }
 
 a, a:visited {
 	color: #D71728;
+    pointer-events: none;
 }
 
-#left-nav {
-    /*display: flex;
-    flex-direction: column;*/
-    width: 10ch;
+section {
+    width: 680px;
 }
 
-h1 {
-    margin: 0;
+header, footer {
+    width: 170px;
 }
 
-article {
-    flex: 1 1 auto;
+img {
+    margin: 10px 0 10px 0;
 }
 
 #TOC {
@@ -74,30 +67,10 @@ article {
     overflow-wrap: break-word;
 }
 
-ul {
-    margin: 0;
-    padding-left: 2ch;
-}
-ul, h3 {
-    list-style-type: circle;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 article #markdown-body section > :first-child a {
     background: 0 0;
     text-decoration: none;
     color: black;
-}
-
-@media only screen and (max-width: 44ch) {
-    code {
-	font-size: 12px;
-    }
-
-    h2:first-child {
-	font-size: 1.5em;
-    }
 }
 
 #right-nav {
@@ -110,8 +83,4 @@ article #markdown-body section > :first-child a {
     padding: 0.125em 0.25em;
     border: 3px solid transparent;
     opacity: 0.3;
-    /*display: flex;
-    width: 10vw;
-    flex-direction: column;
-    margin-right: 50px;*/
 }
