@@ -1,6 +1,7 @@
+# Portfolio
 ## About Me
 
-Hello there! I'm Victor, a software developer. My background is in computer engineering which I studied at the [Univertsity of Arizona](https://en.wikipedia.org/wiki/University_of_Arizona). I live in [Tucson, Arizona](https://en.wikipedia.org/wiki/Tucson,_Arizona) and my interests mainly center around computer programming, philosophy, retro hardware, and anime.
+Hello there! I'm Victor, a software developer. My background is in computer engineering which I studied at the [University of Arizona](https://en.wikipedia.org/wiki/University_of_Arizona). I live in [Tucson, Arizona](https://en.wikipedia.org/wiki/Tucson,_Arizona) and my interests mainly center around computer programming, philosophy, retro hardware, and anime.
 
 I maintain this site in order to showcase my work and share things that are meaningful to me. For the details of my work continue below, or use the sidebar.
 
