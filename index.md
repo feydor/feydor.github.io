@@ -1,7 +1,7 @@
 # Portfolio
 ## About Me
 
-Hello there! I'm Victor, a software developer. My background is in computer engineering which I studied at the [University of Arizona](https://en.wikipedia.org/wiki/University_of_Arizona). I live in [Tucson, Arizona](https://en.wikipedia.org/wiki/Tucson,_Arizona) and my interests mainly center around computer programming, philosophy, retro hardware, and anime.
+Hello there! I'm Victor, a software developer. My background is in computer engineering which I studied at the [University of Arizona](https://en.wikipedia.org/wiki/University_of_Arizona). I live in [Tucson, Arizona](https://en.wikipedia.org/wiki/Tucson,_Arizona) and my interests mainly center around computer programming, philosophy, and retro hardware.
 
 I maintain this site in order to showcase my work and share things that are meaningful to me. For the details of my work continue below, or use the sidebar.
 
@@ -40,5 +40,5 @@ A live version is available [here](https://p-url.herokuapp.com/).
 The source code is publicly available [here](https://github.com/feydor/purl-shortener).                
 
 ## Languages and Technologies
-I'm most familiar working in C and JavaScript. I'm also comfortable with C++, SQL, and the <abbr title="MongoDB, ExpressJS, ReactJS, NodeJS">MERN</abbr> stack.  
+I'm most familiar working in C, C++, and JavaScript. I'm also comfortable with MySQL, and the <abbr title="MongoDB, ExpressJS, ReactJS, NodeJS">MERN</abbr> stack.
 Nearly all of my projects are worked on in the Linux shell using: Git version control, VSCode or neovim, and the Meson build system.
